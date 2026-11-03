@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#FFF8F0" stroke="#C8A46B" stroke-width="2"/>
+  <!-- Cloche Dome -->
+  <path d="M16 42C16 28 23 20 32 20C41 20 48 28 48 42H16Z" fill="#40271F"/>
+  <!-- Cloche Handle -->
+  <circle cx="32" cy="17" r="3.5" fill="#C8A46B"/>
+  <path d="M30 18.5H34V20H30V18.5Z" fill="#C8A46B"/>
+  <!-- Base Plate -->
+  <rect x="12" y="42" width="40" height="4" rx="2" fill="#C8A46B"/>
+  <!-- Sparkles -->
+  <path d="M47 18L48 15L49 18L52 19L49 20L48 23L47 20L44 19L47 18Z" fill="#D8A4A8"/>
+  <path d="M17 26L17.7 23.8L20 23L17.7 22.2L17 20L16.3 22.2L14 23L16.3 23.8L17 26Z" fill="#C8A46B"/>
+</svg>

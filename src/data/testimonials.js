@@ -1,0 +1,38 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Aishwarya R.',
+    role: 'Bride · 3-Tier Wedding Cake',
+    comment: 'Lumière created our dream wedding cake! Not only was the presentation jaw-dropping with edible gold leaf and delicate sugar flowers, but the Belgian chocolate and raspberry layers were praised by every single guest. Ordering through WhatsApp was surprisingly effortless!',
+    rating: 5,
+    celebrationDate: 'October 2026',
+    verified: true,
+  },
+  {
+    id: 2,
+    name: 'Vikram Malhotra',
+    role: 'Birthday Milestone Order',
+    comment: 'Ordered the Lotus Biscoff cheesecake for my wife’s 30th birthday. It arrived in pristine condition in an insulated luxury box. The rich speculoos flavor and creamy texture were Michelin-star caliber. Will never order from anywhere else.',
+    rating: 5,
+    celebrationDate: 'September 2026',
+    verified: true,
+  },
+  {
+    id: 3,
+    name: 'Dr. Priya Sundaram',
+    role: 'Anniversary Celebration',
+    comment: 'Finding genuine 100% eggless gourmet cakes that don’t feel heavy or rubbery was always a struggle until we found Lumière. The Red Velvet is feather-light and the cream cheese whip is perfection. The baker was so kind on WhatsApp!',
+    rating: 5,
+    celebrationDate: 'August 2026',
+    verified: true,
+  },
+  {
+    id: 4,
+    name: 'Karan & Sneha',
+    role: 'Custom Baby Shower Tier',
+    comment: 'I sent them a Pinterest moodboard on WhatsApp with soft pastels and wafer florals. The cake they delivered exceeded our highest expectations. It was truly an edible work of art and the vanilla berry compote was divine.',
+    rating: 5,
+    celebrationDate: 'July 2026',
+    verified: true,
+  },
+];

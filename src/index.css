@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  body {
+    background-color: #FFF8F0;
+    color: #40271F;
+    font-family: 'DM Sans', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFF8F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #DEC6AD;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8A46B;
+}
+
+/* Glassmorphism & Subtle Accents */
+.glass-patisserie {
+  background: rgba(255, 248, 240, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 164, 107, 0.2);
+}
+
+.glass-dark {
+  background: rgba(36, 23, 19, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 164, 107, 0.2);
+}
+
+/* Gold Gradient Shimmer */
+.gold-shimmer {
+  background: linear-gradient(135deg, #C8A46B 0%, #F5EBDD 50%, #A68249 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #C8A46B 0%, #7A5328 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom Cake Card Border Glow */
+.card-hover-effect {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-hover-effect:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(64, 39, 31, 0.12);
+}
+
+/* Prevent layout shift during image loads */
+.aspect-cake {
+  aspect-ratio: 4 / 3;
+}

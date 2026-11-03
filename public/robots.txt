@@ -1,0 +1,5 @@
+# Robots.txt for Lumière Artisan Patisserie
+User-agent: *
+Allow: /
+
+Sitemap: https://lumierepatisserie.com/sitemap.xml
