@@ -43,14 +43,14 @@ export default function Navbar({ onOpenCustomCake }) {
           >
             {/* Cloche/Crown Emblem */}
             <div className="w-10 h-10 md:w-11 md:h-11 rounded-full bg-chocolate text-gold flex items-center justify-center shadow-soft-sm group-hover:scale-105 transition-transform">
-              <span className="font-serif text-lg font-bold">D</span>
+              <span className="font-serif text-lg font-bold">G</span>
             </div>
             <div>
               <span className="font-serif text-xl md:text-2xl font-bold tracking-tight text-chocolate block leading-none">
-                Demould 
+                Golden 
               </span>
               <span className="text-[10px] md:text-xs uppercase tracking-[0.25em] text-gold-dark font-medium block mt-1">
-                Bakery Cafe
+                Bake & Cakes
               </span>
             </div>
           </a>
