@@ -47,10 +47,10 @@ export default function Navbar({ onOpenCustomCake }) {
             </div>
             <div>
               <span className="font-serif text-xl md:text-2xl font-bold tracking-tight text-chocolate block leading-none">
-                Lumière
+                Demould 
               </span>
               <span className="text-[10px] md:text-xs uppercase tracking-[0.25em] text-gold-dark font-medium block mt-1">
-                Artisan Patisserie
+                Bakery Cafe
               </span>
             </div>
           </a>
